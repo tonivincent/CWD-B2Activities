@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/17c8d6c5cb.js" crossorigin="anonymous"></script>
+    <!-- Material icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Modal</title>
+</head>
+<body class="grey -2">
+    <div class="container">
+        <h1 class="pink-text">Modal</h1>
+        <!-- Modal Trigger -->
+  <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <p>A bunch of text</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+</div>
+<!-- Modal with fixed footer -->
+<!-- Modal Trigger -->
+<a class="waves-effect waves-light btn modal-trigger" href="#modal2">Modal 2</a>
+    
+<!-- Modal Structure -->
+<div id="modal2" class="modal modal-fixed-footer">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <p>A bunch of text</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam deleniti ipsa cumque facere quo incidunt facilis dolor veritatis. Odit temporibus praesentium eum, maiores repellat tempore iure quisquam labore perferendis! Corrupti aliquid sint vero dolor, modi dolorem quaerat, placeat odit voluptate ipsam provident, atque minus corporis distinctio doloremque dolorum! Perspiciatis fugiat fuga facilis quaerat aspernatur unde saepe quam et accusamus rem dolores, nihil voluptate ad eum, cumque eveniet sed praesentium minima accusantium tenetur doloremque neque? Doloribus, eveniet ea quo cumque minima aspernatur, itaque exercitationem consectetur fugiat soluta perferendis repudiandae! Quam sit libero accusamus sequi dolor minima omnis officia adipisci nobis fugit!</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
+
+  <!-- Bottom Sheet Modals -->
+  <a class="waves-effect waves-light btn modal-trigger" href="#modal3">Modal 3</a>
+
+  <!-- Modal Structure -->
+  <div id="modal3" class="modal bottom-sheet">
+    <div class="modal-content">
+        <ul class="collection">
+            <li class="collection-item avatar">
+              <img src="images/img9.png" alt="" class="circle">
+              <span class="title">Title</span>
+              <p>First Line <br>
+                 Second Line
+              </p>
+              <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+            </li>
+            <li class="collection-item avatar">
+              <i class="material-icons circle">folder</i>
+              <span class="title">Title</span>
+              <p>First Line <br>
+                 Second Line
+              </p>
+              <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+            </li>
+            <li class="collection-item avatar">
+              <i class="material-icons circle green">insert_chart</i>
+              <span class="title">Title</span>
+              <p>First Line <br>
+                 Second Line
+              </p>
+              <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+            </li>
+            <li class="collection-item avatar">
+              <i class="material-icons circle red">play_arrow</i>
+              <span class="title">Title</span>
+              <p>First Line <br>
+                 Second Line
+              </p>
+              <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+            </li>
+          </ul>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
+
+<!-- end of container -->
+</div>
+ 
+
+
+
+
+<!-- Jquery CDN -->      
+<script src="https://code.jquery.com/jquery-3.6.1.slim.min.js" integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA=" crossorigin="anonymous"></script>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script>
+   $(document).ready(function(){
+    $('.modal').modal();
+  });
+</script>
+</body>
+</html>
